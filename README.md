@@ -76,3 +76,8 @@ streamlit run Relocation.py
 **Eng. Amr Atef**  
 Senior Data Analyst | Python Automation | Data Engineering Enthusiast
 [GitHub](https://github.com/AmrAtefAmer) • [LinkedIn](https://linkedin.com/in/amr-atef-665336151)
+
+---
+## 📝 License
+
+This project is intended for internal use within EET Global. Not licensed for public distribution.

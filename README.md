@@ -57,8 +57,6 @@ streamlit run Relocation.py
 
 ## 🖼️ Screenshots
 
-> Add screenshots under `/images/` and reference them below:
-
 ```markdown
 ![Main App](images/relocation_ui.png)
 ![Hotel Map](images/map_hotels.png)

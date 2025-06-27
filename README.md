@@ -59,7 +59,7 @@ streamlit run Relocation.py
 
 ```markdown
 ![Main App](images/relocation_ui.png)
-![Hotel Map](images/map_hotels.png)
+![Hotel Map](images/map_hotels.PNG)
 ```
 
 ---

@@ -57,10 +57,9 @@ streamlit run Relocation.py
 
 ## 🖼️ Screenshots
 
-```markdown
-![Main App](images/relocation_ui.png)
+![Main App](images/relocation_ui.png)  
 ![Hotel Map](images/map_hotels.PNG)
-```
+
 
 ---
 

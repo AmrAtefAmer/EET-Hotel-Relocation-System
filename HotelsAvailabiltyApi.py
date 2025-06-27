@@ -8,8 +8,8 @@ from tqdm import tqdm
 import requests
 import streamlit as st
 
-url="http://xml-hu.eetglobal.com/webservice/OTA_HotelAvail.asmx"
-headers = {'content-type': 'text/xml;charset=UTF-8','SOAPAction':"http://www.opentravel.org/OTA/2003/05/OTA_HotelAvailService",
+url="xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+headers = {'content-type': 'text/xml;charset=UTF-8','SOAPAction':"xxxxxxxxxxxxxxxxxxxxxxxx",
            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0",
            "Accept-Encoding":"gzip,deflate","Connection": "keep-alive","Cache-Control": "no-cache"}
 
@@ -21,8 +21,8 @@ async def GetRates(session,jpcode,checkin,checkout,x,nationality,rates_df):
     <OTA_HotelAvailService xmlns="http://www.opentravel.org/OTA/2003/05">
     <OTA_HotelAvailRQ PrimaryLangID="en">
         <POS>
-            <Source AgentDutyCode="BookingZone_XML02">
-                <RequestorID Type="1" MessagePassword="D+8mgtxJkAWT"/>
+            <Source AgentDutyCode="xxxxxxxxxxxxxxxxxxxxxx">
+                <RequestorID Type="1" MessagePassword="xxxxxxxxxxxxxxxxxxx"/>
             </Source>
         </POS>
         <AvailRequestSegments>

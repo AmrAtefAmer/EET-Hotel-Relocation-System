@@ -36,10 +36,10 @@ df = pd.DataFrame(columns=['BookingCode','Description','Supplier Name','First Na
                            'EndTravelDate', 'Channel', 'Agency', 'Product Group','SupplierCodExport','CancellationDate','NationalityId','Nationality',
                            'SellingPrice','No.Rooms','RoomData','JPCode','BoardType','Ages','Country','RoomNames'])
 def GetBookingData(code):
-    url = "https://www.eetglobal.com/wsExportacion/wsBookings.asmx"
+    url = "xxxxxxxxxxxxxxxxxxxxxxxxx"
     headers = {
         'content-type': 'text/xml',
-        'SOAPAction': "http://juniper.es/getBookings",
+        'SOAPAction': "xxxxxxxxxxxxxxxxxxxxxxxxxxx",
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0",
         "Accept-Encoding": "*",
         "Connection": "keep-alive"
@@ -48,8 +48,8 @@ def GetBookingData(code):
         <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
           <soap:Body>
             <getBookings xmlns="http://juniper.es/">
-              <user>internet03</user>
-              <password>P@$$w0rd09</password>
+              <user>xxxxxxxxxxxxxxx</user>
+              <password>xxxxxxxxxxxxxxxxxx</password>
               <BookingCode>{code}</BookingCode>
             </getBookings>
           </soap:Body>
